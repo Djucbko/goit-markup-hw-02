@@ -1,10 +1,12 @@
 .body{
     background-color: #FFFFFF;
     color:#212121;
-    font-family: 'Roboto',
-        sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
-ul{list-style: none;}
+.decoration{
+    text-decoration: none;
+}
+.list{list-style: none;}
 /*logo*/
 .logo-link{
     color: #2196F3;
@@ -14,16 +16,16 @@ ul{list-style: none;}
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
-        text-decoration: none;
+        
 }
 .logo-header{
     color: #000000;
-    text-decoration: none;
+    
 }
 
 /*site-nav*/
 .site-nav{
-    font-family: 'Roboto';
+    font-family:'Roboto', sans-serif;;
     font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -31,13 +33,14 @@ ul{list-style: none;}
         letter-spacing: 0.02em;
 }
 .studio{
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
     color: #212121;
-    text-decoration: none;
+    
 
     }
     .studio.current{
@@ -46,17 +49,17 @@ ul{list-style: none;}
 .studio:hover,
 .studio:focus
 { color: #2196F3;
-    text-decoration: none;
+    
     }
 .portfolio{
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
-}
+    color: #212121;}
+    
 .portfolio.current{
     color: #2196F3;
 }
@@ -65,19 +68,19 @@ ul{list-style: none;}
 .portfolio:focus
 {
     color: #2196F3;
-    text-decoration: none;
+    
    
 }
 .contacts {
     color: #212121;
-    text-decoration: none;
+    
 }
 .contacts:hover {
     color: #2196F3;
 }
 /*auth-nav*/
 .mail,.tell{color: #757575;
-    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -89,15 +92,17 @@ ul{list-style: none;}
 }
 /*header*/
 .header {
-    background-color: #2F303A;
-    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
         text-align: center;
+        background-color: #2F303A;
+            color: #FFFFFF;
     }
 .button {
+    font-family: 'Roboto', sans-serif;
     background-color: #2196F3;
     color:#FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -119,6 +124,7 @@ ul{list-style: none;}
 }
 /*features*/
 .features {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -128,6 +134,7 @@ ul{list-style: none;}
 
 }
 .feature {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 700;
         font-size: 14px;
@@ -144,7 +151,8 @@ ul{list-style: none;}
 }
 /*work*/
 .work{
-   font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 42px;
@@ -168,22 +176,20 @@ font-style: normal;
  ;
 }
 .who {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
-    
         text-align: center;
         letter-spacing: 0.03em
 }
 .about {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
-    
         text-align: center;
         letter-spacing: 0.03em;
     
@@ -200,10 +206,10 @@ font-style: normal;
             font-weight: 700;
             font-size: 26px;
             line-height: 31px;
-            text-decoration: none;}
+           }
       .logo-head {
       color: #FFFFFF;
-     text-decoration: none;
+    
      }
 .address {
 font-style: normal;
@@ -211,7 +217,7 @@ font-style: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    text-decoration: none;
+    
     color: #FFFFFF;
 }      
 .mail-foot,.tell-foot{
@@ -220,7 +226,6 @@ font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        text-decoration: none;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }       
@@ -239,7 +244,7 @@ font-style: normal;
             sans-serif;
 }
     .button-log {
-    font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -266,7 +271,7 @@ border-radius: 4px;background: #2196F3;
     border-radius: 4px;
 }
 .name {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
@@ -275,15 +280,12 @@ border-radius: 4px;background: #2196F3;
         color:#212121;
         }
 .description {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
-        /* identical to box height, or 188% */
-    
         letter-spacing: 0.03em;
-    
         color: #757575;
 }
 
